@@ -1,5 +1,5 @@
 __author__ = 'misbah'
-from Tkinter import *
+from tkinter import *
 import time
 import random
 

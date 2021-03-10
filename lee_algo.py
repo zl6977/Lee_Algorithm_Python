@@ -1,4 +1,4 @@
-from Queue import *
+from queue import *
 import Board
 import threading
 import time
@@ -80,7 +80,7 @@ class Field(object):
     def _show(self):
         for i in self:
             for j in i:
-                print j,
+                print(j),
             print
 
 #initialization
